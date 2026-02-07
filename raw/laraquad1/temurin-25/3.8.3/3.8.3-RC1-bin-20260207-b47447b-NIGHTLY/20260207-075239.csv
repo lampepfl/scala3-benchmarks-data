@@ -1,0 +1,22 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+CompilationBenchmarksBig36Nightly,indigo,60,1,26480 26590 26993 27315 26376 26337 26822 26727 26860 26874,4151,4152,4153,0,0,0,969,1118,1336
+CompilationBenchmarksBigNightly,caskApp,150,1,563.2 560.3 560.7 560.1 560.2 559 560.3 554.6 560.2 559.5,108.4,108.4,108.4,0,0,0,15,82.2,218
+CompilationBenchmarksBigNightly,dottyUtils,150,1,1118 1116 1121 1126 1116 1114 1122 1147 1121 1110,154,154,154,0,0,0,15,197.9,433
+CompilationBenchmarksBigNightly,fansi,150,1,1293 1296 1299 1295 1296 1292 1296 1295 1299 1292,186.4,186.4,186.4,0,0,0,457,573.8,735
+CompilationBenchmarksBigNightly,parallelCollections,80,1,4605 4604 4564 4606 4607 4608 4607 4604 4603 4603,570.1,570.2,570.2,0,0,0,34,137.2,264
+CompilationBenchmarksBigNightly,re2s,100,1,1834 1833 1833 1832 1832 1831 1829 1831 1830 1829,246.8,246.8,246.8,0,0,0,12,108.7,284
+CompilationBenchmarksBigNightly,scalaToday,150,1,3242 3241 3237 3238 3237 3247 3236 3236 3241 3237,470.7,470.7,470.7,0,0,0,29,118.3,349
+CompilationBenchmarksBigNightly,scalaYaml,80,1,4457 4462 4457 4456 4456 4470 4456 4456 4452 4451,538.4,538.5,538.5,0,0,0,81,193,467
+CompilationBenchmarksBigNightly,sourcecode,170,1,901.5 898.9 901.5 901.8 900 899.8 900.5 926.8 981.3 899.6,161.4,161.4,161.4,0,0,0,0,86.9,357
+CompilationBenchmarksBigNightly,tastyQuery,60,1,5159 5275 5240 5210 5395 5274 5367 5132 5080 5069,635.4,635.4,635.5,0,0,0,15,251.6,959
+CompilationBenchmarksBigNightly,tictactoe,150,1,1122 1123 1121 1121 1109 1143 1226 1111 1106 1105,211.7,211.7,211.7,0,0,0,103,193.8,376
+CompilationBenchmarksSmallNightly,helloWorld,150,1,124.9 124.4 124.3 123.9 123.9 124.1 124.1 124.6 123.3 124.5,34.36,34.36,34.36,0,0,0,1,20.2,39
+CompilationBenchmarksSmallNightly,implicitInductive,150,1,887.1 885.8 891.8 885.5 885.5 884.8 885.1 885.8 884.8 886.1,66.32,66.33,66.33,0,0,0,10,39.9,134
+CompilationBenchmarksSmallNightly,matchTypeSort,150,1,566.7 566.8 566.9 566.8 567.5 567 565.5 566.7 566 566.7,104.5,104.5,104.5,0,0,0,17,60.6,170
+CompilationBenchmarksSmallNightly,patmatexhaust,150,1,350.6 355.7 347.3 346.3 343.8 343.3 343.4 343.6 341.7 343.5,68.07,68.08,68.1,0,0,0,1,105.3,406
+RuntimeBenchmarksOptimizerSmallNightly,ary,40,10,8.536 8.549 8.534 8.54 8.568 8.538 8.567 8.551 8.525 8.538,0.3672,0.3672,0.3672,0,0,0,0,0.2,1
+RuntimeBenchmarksOptimizerSmallNightly,ary2,20,10,192 186 186.2 185.7 186 185.8 186.1 185.6 185.6 185.5,350.4,350.4,350.4,0,0,0,0,2.9,17
+RuntimeBenchmarksOptimizerSmallNightly,matMul,20,10,22.24 22.25 22.23 22.31 22.28 22.31 22.28 22.24 22.22 22.31,6.574,6.574,6.574,0,0,0,0,0.8,4
+RuntimeBenchmarksOptimizerSmallNightly,meteor,20,1,459.7 461.7 456.3 456.2 456.2 456.9 457.1 456.9 456.8 456.7,267.5,267.5,267.5,0,0,0,0,1.1,5
+RuntimeBenchmarksOptimizerSmallNightly,nestedLoop,20,10,25.97 25.9 25.97 25.71 25.96 25.92 25.83 27.01 25.7 26.41,5.613,5.613,5.613,0,0,0,0,1.4,4
+RuntimeBenchmarksOptimizerSmallNightly,nestedLoop2,20,10,92.58 92.53 92.47 92.47 92.49 92.61 92.27 92.33 92.36 95.68,96.1,96.1,96.1,0,0,0,0,1.1,4
