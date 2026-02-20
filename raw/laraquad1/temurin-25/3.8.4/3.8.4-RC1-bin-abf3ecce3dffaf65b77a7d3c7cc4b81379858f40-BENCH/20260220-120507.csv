@@ -1,0 +1,7 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+RuntimeBenchmarksOptimizerSmallNightly,ary,40,10,8.514 8.517 8.561 8.519 8.514 8.52 8.525 8.541 8.52 8.519,0.3672,0.3672,0.3672,0,0,0,0,0,0
+RuntimeBenchmarksOptimizerSmallNightly,ary2,20,10,132.1 126.9 127.2 127.4 126.8 127.1 126.9 126.8 126.9 126.8,350.4,350.4,350.4,0,0,0,0,2.4,14
+RuntimeBenchmarksOptimizerSmallNightly,matMul,20,10,22.34 22.28 22.24 22.27 22.28 22.33 22.27 22.3 22.29 22.22,6.568,6.568,6.568,0,0,0,0,1.2,6
+RuntimeBenchmarksOptimizerSmallNightly,meteor,20,1,408.7 407.5 407.4 407.4 407.4 407.4 408 407.4 407.6 407.4,222.2,222.2,222.2,0,0,0,0,1.1,5
+RuntimeBenchmarksOptimizerSmallNightly,nestedLoop,20,10,26.27 26.31 26.26 26.3 26.26 26.43 27.01 26.42 26.45 26.41,5.613,5.613,5.613,0,0,0,0,1.5,4
+RuntimeBenchmarksOptimizerSmallNightly,nestedLoop2,20,10,75.1 74.97 74.93 75.05 103.3 76.23 74.9 74.85 74.98 74.91,96.1,96.1,96.1,0,0,0,0,1.8,8
