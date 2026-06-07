@@ -1,2 +1,3 @@
 version,count,min,avg,max
 3.10.0-RC1-bin-20260531-c26a453-NIGHTLY,20,772.1,776.2,782.5
+3.10.0-RC1-bin-20260607-dec42ae-NIGHTLY,20,776.8,782.3,787
