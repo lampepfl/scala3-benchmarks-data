@@ -1,0 +1,15 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+CompilationBenchmarksBigNightly,caskApp,150,1,609.8 613.6 618 617.9 616.7 617.4 616.6 617.1 614.3 617.8,164.8,164.8,164.8,0,0,0,9,88.9,252
+CompilationBenchmarksBigNightly,dottyUtils,170,1,1226 1194 1222 1159 1158 1165 1165 1161 1157 1164,208.8,208.8,208.8,0,0,0,1,72.8,219
+CompilationBenchmarksBigNightly,fansi,150,1,1368 1368 1370 1375 1368 1365 1366 1370 1363 1366,244.6,244.7,245,0,0,0,347,434.1,510
+CompilationBenchmarksBigNightly,parallelCollections,100,1,4708 4709 4708 4708 4706 4707 4705 4705 4706 4707,686.1,686.1,686.2,0,0,0,8,83.2,251
+CompilationBenchmarksBigNightly,re2s,120,1,1877 1881 1885 1884 1888 1880 1874 1896 1891 1875,334.3,334.3,334.4,0,0,0,14,142.6,419
+CompilationBenchmarksBigNightly,scalaToday,150,1,3869 3704 3716 3650 3689 3542 3541 3541 3539 3541,617.3,617.3,617.3,0,0,0,36,147.7,348
+CompilationBenchmarksBigNightly,scalaYaml,80,1,4612 4618 4615 4608 4606 4622 4614 4607 4607 4607,643.7,643.7,643.8,0,0,0,26,203.9,530
+CompilationBenchmarksBigNightly,sourcecode,170,1,964.8 967.7 961.6 962.6 960 970.3 984.2 1025 986.2 1016,210,210,210,0,0,0,1,108.2,391
+CompilationBenchmarksBigNightly,tastyQuery,60,1,5260 5249 5247 5561 5220 5389 5217 5194 5179 5317,759.4,759.5,759.5,0,0,0,26,228.8,761
+CompilationBenchmarksBigNightly,tictactoe,150,1,1261 1244 1242 1242 1242 1241 1242 1242 1238 1240,326.2,326.2,326.2,0,0,0,67,153.1,363
+CompilationBenchmarksSmallNightly,helloWorld,150,1,166.7 166.5 165.8 165.9 172.8 165.6 166.2 165.9 166.7 166.6,65.56,65.56,65.56,0,0,0,0,23.4,50
+CompilationBenchmarksSmallNightly,implicitInductive,150,1,930 928.3 928.6 928.6 926.3 928.3 928.5 928.7 943.1 930.8,107.5,107.5,107.5,0,0,0,9,61.4,152
+CompilationBenchmarksSmallNightly,matchTypeSort,150,1,645.8 645.9 645.8 645.2 646.1 645.5 643.7 644.7 645.6 644.4,147.7,147.7,147.7,0,0,0,19,61,151
+CompilationBenchmarksSmallNightly,patmatexhaust,150,1,397.2 402.3 397.4 395.6 395.2 393.1 393.6 391.9 391.9 391.8,109.3,109.3,109.3,0,0,0,8,161.9,418
