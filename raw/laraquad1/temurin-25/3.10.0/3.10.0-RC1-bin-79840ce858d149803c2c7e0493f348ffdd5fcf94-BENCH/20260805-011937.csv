@@ -1,0 +1,25 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+RuntimeBenchmarksAwfyWeekly,bounce,10,1000,22.89 23.34 23.28 23.23 23.06 23.23 23.45 23.24 23.21 23.28,4.439,4.439,4.439,0,0,0,0,0.5,2
+RuntimeBenchmarksAwfyWeekly,brainfuck,10,10,12.61 12.64 12.66 12.66 12.65 12.6 12.64 12.58 12.61 12.57,1.813,1.813,1.813,0,0,0,0,0.7,3
+RuntimeBenchmarksAwfyWeekly,cd,20,1,29.47 29.53 29.46 29.56 29.94 29.74 30.2 27.28 26 25.8,31.17,31.17,31.17,0,0,0,0,1.6,5
+RuntimeBenchmarksAwfyWeekly,deltablue,10,100,22.56 22.5 22.47 22.31 22.33 22.54 22.51 22.36 22.39 22.33,16.26,16.26,16.27,0,0,0,0,0.8,3
+RuntimeBenchmarksAwfyWeekly,gcbench,30,1,139.4 139.7 139.3 139 139.5 138.8 139.3 141.5 139.9 140.6,490.4,490.4,490.4,0,0,0,0,0.8,4
+RuntimeBenchmarksAwfyWeekly,json,10,10,14.92 14.66 14.83 14.69 14.66 14.64 14.66 14.63 14.96 14.8,16.53,16.53,16.53,0,0,0,0,0.4,1
+RuntimeBenchmarksAwfyWeekly,kmeans,20,1,47.76 47.91 47.8 47.75 47.9 47.7 47.54 47.58 47.73 47.76,10.46,10.46,10.46,0,0,0,0,1.3,5
+RuntimeBenchmarksAwfyWeekly,list,10,1000,74.63 74.33 74.56 74.8 74.44 74.04 74.36 74.27 74.37 74.29,0.7268,0.7268,0.7268,0,0,0,0,0.7,2
+RuntimeBenchmarksAwfyWeekly,mandelbrot,20,1,151 150.6 150.6 150.6 150.6 150.8 150.6 150.6 150.6 152.6,0.006784,0.006784,0.006784,0,0,0,0,1,5
+RuntimeBenchmarksAwfyWeekly,nbody,10,10,392.9 392.9 392.9 392.9 392.9 394.9 392.9 392.9 392.9 394,0.01174,0.01174,0.01174,0,0,0,0,0.6,1
+RuntimeBenchmarksAwfyWeekly,permute,10,1000,76.48 76.5 76.44 76.75 76.48 76.4 76.51 76.5 76.53 76.51,134.1,134.1,134.1,0,0,0,0,0.9,2
+RuntimeBenchmarksAwfyWeekly,queens,10,10000,29.78 29.34 29.51 29.66 29.52 29.54 29.28 29.52 29.35 29.51,1.367,1.367,1.367,0,0,0,0,0.9,4
+RuntimeBenchmarksAwfyWeekly,richards,10,1000,99.66 99.63 99.58 99.69 99.63 99.68 99.67 99.77 102.1 100.1,0.9828,0.9828,0.9828,0,0,0,0,0.7,2
+RuntimeBenchmarksAwfyWeekly,tracer,20,100,75.18 75.16 75.28 130.3 77.32 75.14 75.18 75.1 75.08 75.09,165.2,165.2,165.2,0,0,0,0,1,5
+RuntimeBenchmarksLibsWeekly,fansiFormat,40,1,20.95 20.98 20.72 20.99 20.95 20.94 20.97 20.97 21.03 20.9,37.36,37.36,37.36,0,0,0,0,0.4,3
+RuntimeBenchmarksLibsWeekly,wordFreqParser,40,1,37.18 37.16 37.08 37.09 37.03 37.16 38.55 37.11 37.38 37.13,71.2,71.2,71.2,0,0,0,0,0.8,6
+RuntimeBenchmarksLibsWeekly,yamlDecode,40,1,174.3 175 173.6 175 174.5 174.5 174.8 174.3 174.5 173.3,383.2,383.2,383.2,0,0,0,0,0.6,4
+RuntimeBenchmarksLibsWeekly,yamlEncode,40,1,51.46 51.44 51.51 59.16 51.54 51.5 51.46 51.61 51.41 51.42,80.58,80.58,80.58,0,0,0,0,0.6,5
+RuntimeBenchmarksOptimizerSmallWeekly,ary,40,10,8.527 8.537 8.519 8.537 8.534 8.53 8.552 8.523 8.53 8.534,0.3672,0.3672,0.3672,0,0,0,0,0,0
+RuntimeBenchmarksOptimizerSmallWeekly,ary2,30,10,127 127 127.1 127.2 127.1 127 127 126.9 127.6 126.9,350.4,350.4,350.4,0,0,0,0,0.8,4
+RuntimeBenchmarksOptimizerSmallWeekly,matMul,30,10,22.23 22.24 22.27 22.22 22.21 22.29 22.24 22.21 22.31 22.9,6.568,6.568,6.568,0,0,0,0,0.4,1
+RuntimeBenchmarksOptimizerSmallWeekly,meteor,40,1,409.5 409.3 409.2 409.4 409.5 409.3 409.7 409.6 409.7 409.9,222.2,222.2,222.2,0,0,0,0,0.1,1
+RuntimeBenchmarksOptimizerSmallWeekly,nestedLoop,30,10,25.53 25.57 25.52 25.52 25.52 25.51 25.54 25.51 25.57 25.54,5.613,5.613,5.613,0,0,0,0,0.4,1
+RuntimeBenchmarksOptimizerSmallWeekly,nestedLoop2,30,10,74.9 74.95 74.9 74.88 74.84 74.85 75 77.65 79.68 74.84,96.1,96.1,96.1,0,0,0,0,1.1,4
