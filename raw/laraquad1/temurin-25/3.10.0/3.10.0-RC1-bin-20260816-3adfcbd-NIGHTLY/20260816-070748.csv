@@ -1,0 +1,15 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+CompilationBenchmarksBigNightly,caskApp,130,1,679 676.4 677.8 677.3 685.4 684.2 684.8 673.7 676.4 676.7,160,160,160,0,0,0,52,146.3,402
+CompilationBenchmarksBigNightly,dottyUtils,170,1,1221 1280 1332 1227 1222 1220 1223 1222 1242 1226,207.4,207.4,207.4,0,0,0,3,85.5,243
+CompilationBenchmarksBigNightly,fansi,140,1,1460 1465 1461 1471 1470 1477 1475 1470 1469 1477,258,258.1,258.3,0,0,0,350,486.9,681
+CompilationBenchmarksBigNightly,parallelCollections,100,1,5008 5011 5006 5009 5008 5009 5156 5425 5114 5123,731.3,731.3,731.3,0,0,0,17,93.2,268
+CompilationBenchmarksBigNightly,re2s,60,1,2217 2215 2214 2199 2193 2185 2187 2186 2185 2183,375.8,375.8,375.8,0,0,0,44,186,526
+CompilationBenchmarksBigNightly,scalaToday,130,1,3794 3715 3667 3675 3662 3672 3670 3793 3811 3807,637,637,637,0,0,0,19,139.3,376
+CompilationBenchmarksBigNightly,scalaYaml,40,1,4933 4906 4959 5382 4920 5084 5223 4876 4879 4878,681.8,681.9,682,0,0,0,92,426.3,771
+CompilationBenchmarksBigNightly,sourcecode,100,1,1044 1040 1043 1042 1041 1042 1040 1050 1049 1049,211.5,211.5,211.5,0,0,0,14,126.9,369
+CompilationBenchmarksBigNightly,tastyQuery,60,1,5545 5501 5497 5572 6022 5720 5557 5552 5553 5554,807.5,807.6,807.6,0,0,0,23,264.5,565
+CompilationBenchmarksBigNightly,tictactoe,130,1,1439 1452 1438 1681 1697 1405 1396 1398 1396 1432,324.8,324.9,325,0,0,0,89,301.7,735
+CompilationBenchmarksSmallNightly,helloWorld,150,1,157.1 161.3 160.2 160.3 160.3 146.2 151.3 159.2 160.5 160.6,53.01,53.01,53.02,0,0,0,4,18.9,44
+CompilationBenchmarksSmallNightly,implicitInductive,150,1,1037 1031 1033 1031 1035 1046 1037 1044 1036 1036,89.54,89.54,89.55,0,0,0,3,61.2,186
+CompilationBenchmarksSmallNightly,matchTypeSort,150,1,678.7 678.6 679.6 679.3 679 679 677.1 678.8 678.4 679.3,159.6,159.6,159.6,0,0,0,26,68.7,160
+CompilationBenchmarksSmallNightly,patmatexhaust,150,1,399.9 405.9 400.8 398.8 400.2 396.9 396.5 396.1 398.1 395.1,97.32,97.36,97.54,0,0,0,6,128.3,697
