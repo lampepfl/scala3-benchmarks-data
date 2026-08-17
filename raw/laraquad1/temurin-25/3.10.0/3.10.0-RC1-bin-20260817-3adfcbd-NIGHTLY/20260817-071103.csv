@@ -1,0 +1,15 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+CompilationBenchmarksBigNightly,caskApp,130,1,675.2 673.2 673.7 675.3 674.7 674.5 673.9 669.7 672.5 671,159.1,159.1,159.1,0,0,0,9,140.3,417
+CompilationBenchmarksBigNightly,dottyUtils,170,1,1291 1256 1292 1281 1279 1236 1228 1297 1320 1229,208,208,208,0,0,0,1,72,233
+CompilationBenchmarksBigNightly,fansi,140,1,1458 1457 1457 1457 1457 1458 1461 1456 1456 1454,243.5,243.6,243.7,0,0,0,321,434.9,606
+CompilationBenchmarksBigNightly,parallelCollections,100,1,4960 4964 4957 4961 4958 4959 4960 4961 4948 4949,733.4,733.4,733.4,0,0,0,9,89,244
+CompilationBenchmarksBigNightly,re2s,60,1,2254 2254 2252 2261 2257 2279 2288 2329 2337 2254,375.5,375.5,375.5,0,0,0,53,182,477
+CompilationBenchmarksBigNightly,scalaToday,130,1,3724 3725 3722 3722 3727 3720 3721 3722 3745 3721,641.3,641.4,641.4,0,0,0,14,128.6,389
+CompilationBenchmarksBigNightly,scalaYaml,40,1,4990 4987 4994 4981 4975 4973 4972 4970 4970 4974,680.5,680.5,680.6,0,0,0,93,437.7,768
+CompilationBenchmarksBigNightly,sourcecode,100,1,1030 1036 1030 1131 1071 1055 1032 1030 1044 1029,210.8,210.8,210.8,0,0,0,35,129.6,418
+CompilationBenchmarksBigNightly,tastyQuery,60,1,5579 5578 5578 5591 5590 5573 5653 5626 5586 5659,808.8,808.8,808.9,0,0,0,92,288.7,693
+CompilationBenchmarksBigNightly,tictactoe,130,1,1381 1381 1381 1378 1378 1380 1377 1377 1360 1359,325.3,325.3,325.4,0,0,0,69,225.5,438
+CompilationBenchmarksSmallNightly,helloWorld,150,1,153.2 153.4 152.9 152.6 153.4 152.9 152.7 153.1 152 153.5,53.07,53.07,53.07,0,0,0,1,18.2,51
+CompilationBenchmarksSmallNightly,implicitInductive,150,1,1023 1024 1022 1022 1021 1022 1022 1021 1024 1022,90.43,90.43,90.43,0,0,0,4,42.2,170
+CompilationBenchmarksSmallNightly,matchTypeSort,150,1,710.1 710.4 710.8 709.9 710 709.9 709.5 710 709.5 710.2,160.1,160.1,160.1,0,0,0,5,77.8,389
+CompilationBenchmarksSmallNightly,patmatexhaust,150,1,425.1 404.9 406.1 403.7 405 405.2 404.6 402.3 415 403.2,97.61,97.64,97.74,0,0,0,16,162,842
