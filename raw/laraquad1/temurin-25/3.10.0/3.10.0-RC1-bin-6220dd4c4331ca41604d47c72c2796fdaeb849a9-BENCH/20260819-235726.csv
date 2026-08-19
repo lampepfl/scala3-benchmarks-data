@@ -1,0 +1,21 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+CompilationBenchmarksSmallNightly,helloWorld,150,1,139.5 140 139.1 138.8 138.1 137.9 138.2 137.4 138.3 137.4,50.81,50.81,50.81,0,0,0,1,18.4,53
+CompilationBenchmarksSmallNightly,implicitInductive,150,1,1022 1022 1023 1021 1022 1059 1033 1021 1022 1021,91.22,91.22,91.22,0,0,0,9,30.7,86
+CompilationBenchmarksSmallNightly,matchTypeSort,150,1,673 672.9 674.8 674.1 671.5 672.1 673.9 671.9 672.3 671.2,157.4,157.5,157.5,0,0,0,15,74.5,255
+CompilationBenchmarksSmallNightly,patmatexhaust,150,1,390 398 388.6 387.6 385.2 385.5 385.8 385.8 387.7 385.7,97.08,97.1,97.13,0,0,0,9,89.7,404
+CompilationBenchmarksSmallWeekly,exhaustivityI,150,1,287.1 286.7 287 286.8 286.7 286.2 286.5 286.2 286.1 285,86.86,86.86,86.87,0,0,0,0,44,162
+CompilationBenchmarksSmallWeekly,exhaustivityS,150,1,225.5 225.7 225.5 225.4 225.1 225 225 224.1 224.6 224.9,73.94,73.94,73.94,0,0,0,2,41.4,114
+CompilationBenchmarksSmallWeekly,exhaustivityT,150,1,214.6 214.4 213.9 230.8 229.5 213.9 213.1 213.1 214.1 223,68.7,68.7,68.7,0,0,0,5,31.6,63
+CompilationBenchmarksSmallWeekly,exhaustivityV,150,1,234 233.9 234.4 231.7 233.1 233.9 233.5 261.2 243.7 231.2,68.69,68.69,68.69,0,0,0,5,30.7,101
+CompilationBenchmarksSmallWeekly,findRef,150,1,131.9 132 131.3 130.9 132.4 131.4 130.9 131 130.7 129.8,46.97,46.97,46.97,0,0,0,5,40.1,85
+CompilationBenchmarksSmallWeekly,i1535,150,1,242 242.5 242.7 239.7 239.4 238.8 239.7 239.7 239.6 239.6,72.32,72.32,72.33,0,0,0,22,52.8,108
+CompilationBenchmarksSmallWeekly,i1687,150,1,135.4 135.8 135.5 134.6 135.1 134.9 134.2 135.1 134.5 135.5,49.74,49.74,49.75,0,0,0,0,24.3,68
+CompilationBenchmarksSmallWeekly,implicitCache,150,1,148.9 149.2 151 148.8 148.7 148.6 148.9 148.9 149.4 149.1,52.24,52.24,52.24,0,0,0,2,12.4,40
+CompilationBenchmarksSmallWeekly,implicitNums,150,1,378.5 377.8 377.3 377.2 377.2 377 378.3 376.9 377.5 376.4,106.4,106.4,106.4,0,0,0,2,39.5,152
+CompilationBenchmarksSmallWeekly,implicitScopeLoop,150,1,160.8 158.5 153.7 154.1 153.6 153.7 153.8 153.4 153.1 154.2,52.71,52.71,52.71,0,0,0,0,36.7,69
+CompilationBenchmarksSmallWeekly,tuple,150,1,236.5 236.6 236.6 236.5 236.1 235.7 236.2 235.5 238.5 236.3,75.15,75.15,75.16,0,0,0,11,24.2,50
+CompilationBenchmarksSmallWeekly,tuple22Apply,150,1,181.3 191.1 197.6 180 179.8 179.6 178.3 180.2 179.4 185.3,62.48,62.48,62.48,0,0,0,4,44.6,88
+CompilationBenchmarksSmallWeekly,tuple22Cons,150,1,228.9 229.8 227.8 228.1 227.7 227.4 226.8 227 227.7 227.2,79.37,79.38,79.38,0,0,0,0,36,84
+CompilationBenchmarksSmallWeekly,tuple22Creation,150,1,173.1 173.9 173.1 173.7 173.5 173.1 171 171.3 171.9 171.4,61.34,61.34,61.34,0,0,0,0,21.6,68
+CompilationBenchmarksSmallWeekly,tuple22Size,150,1,168.8 168.8 169.1 169.7 169.4 168.3 169.1 169.3 168.8 167.5,58.86,58.87,58.87,0,0,0,9,48.2,120
+CompilationBenchmarksSmallWeekly,tuple22Tails,150,1,235.7 228.3 228 227.5 227.5 227.6 235.3 230.9 227.1 228.5,74.7,74.7,74.7,0,0,0,1,36.4,88
