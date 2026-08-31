@@ -1,0 +1,15 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+CompilationBenchmarksBigNightly,caskApp,130,1,627.4 626.6 626.7 627.3 634.1 634.2 633.1 631.2 632.5 633.2,152.7,152.7,152.8,0,0,0,13,124.1,323
+CompilationBenchmarksBigNightly,dottyUtils,170,1,1156 1145 1145 1144 1156 1156 1156 1157 1156 1156,200.4,200.4,200.4,0,0,0,0,54,209
+CompilationBenchmarksBigNightly,fansi,140,1,1103 1103 1100 1097 1098 1101 1090 1085 1086 1086,204,204,204,0,0,0,451,537.7,669
+CompilationBenchmarksBigNightly,parallelCollections,100,1,4842 4841 4839 4840 4841 4840 4839 4839 4837 4840,721.9,721.9,721.9,0,0,0,11,70.4,158
+CompilationBenchmarksBigNightly,re2s,60,1,2133 2122 2130 2134 2128 2121 2140 2144 2236 2307,365,365,365,0,0,0,52,220.4,625
+CompilationBenchmarksBigNightly,scalaToday,130,1,3315 3321 3323 3317 3352 3351 3347 3356 3348 3345,605,605,605.1,0,0,0,14,200.6,604
+CompilationBenchmarksBigNightly,scalaYaml,40,1,4501 4496 4506 4493 4486 4487 4482 4483 4480 4474,644.3,644.4,644.5,0,0,0,175,433.9,702
+CompilationBenchmarksBigNightly,sourcecode,100,1,960 959.5 958.4 957.7 959 952.8 958.3 957.9 955.9 955.8,199.3,199.4,199.4,0,0,0,32,152,541
+CompilationBenchmarksBigNightly,tastyQuery,60,1,5258 5256 5262 5262 5274 5246 5250 5243 5249 5448,775.3,775.4,775.5,0,0,0,31,218.7,468
+CompilationBenchmarksBigNightly,tictactoe,130,1,1303 1312 1307 1353 1323 1361 1361 1359 1305 1350,315.1,315.2,315.3,0,0,0,38,234.6,595
+CompilationBenchmarksSmallNightly,helloWorld,150,1,124 120.9 120.8 120.6 120.4 120.3 118.9 128.5 124.9 120.6,43.76,43.76,43.76,0,0,0,1,22.8,59
+CompilationBenchmarksSmallNightly,implicitInductive,150,1,956 956.2 955.3 956.6 955.9 955.9 956 955.9 956.2 956,84.51,84.51,84.52,0,0,0,14,40.7,141
+CompilationBenchmarksSmallNightly,matchTypeSort,150,1,656.5 657.1 655.9 657.6 655.5 655.8 657.6 655.2 656.3 654.6,152,152,152,0,0,0,3,66.1,169
+CompilationBenchmarksSmallNightly,patmatexhaust,150,1,363.6 363 362.8 356.6 357.8 356.2 358.9 355.5 355.7 355.8,90.39,90.41,90.52,0,0,0,4,81.7,442
