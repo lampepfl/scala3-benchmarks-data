@@ -1,0 +1,15 @@
+suite,benchmark,warmup_iterations,batch_size,times,allocs_min,allocs_avg,allocs_max,gc_min,gc_avg,gc_max,comp_min,comp_avg,comp_max
+CompilationBenchmarksBigNightly,caskApp,130,1,614.4 663.1 656.5 612 689.7 659.6 638.2 615.5 606.9 607.8,136.4,136.4,136.4,0,0,0,10,146.4,411
+CompilationBenchmarksBigNightly,dottyUtils,170,1,1058 1059 1060 1059 1058 1070 1072 1069 1069 1073,167.1,167.1,167.1,0,0,0,0,52.2,202
+CompilationBenchmarksBigNightly,fansi,140,1,1056 1050 1053 1052 1052 1055 1052 1052 1053 1054,186.5,186.6,186.7,0,0,0,397,530.6,897
+CompilationBenchmarksBigNightly,parallelCollections,100,1,4561 4561 4561 4562 4560 4559 4562 4559 4559 4559,622.3,622.3,622.4,0,0,0,10,72.8,139
+CompilationBenchmarksBigNightly,re2s,60,1,1773 1773 1812 1846 1860 1845 1843 1853 1848 1847,262.3,262.3,262.3,0,0,0,53,231,442
+CompilationBenchmarksBigNightly,scalaToday,130,1,3321 3327 3316 3214 3263 3302 3288 3200 3169 3166,547.9,547.9,547.9,0,0,0,39,183.6,666
+CompilationBenchmarksBigNightly,scalaYaml,40,1,4392 4224 4238 4311 4344 4318 4315 4259 4425 4760,561.1,561.2,561.2,0,0,0,225,507.6,669
+CompilationBenchmarksBigNightly,sourcecode,100,1,840.3 843.7 839.6 839.5 838.8 951.2 886.1 840.5 840.9 838.1,165.3,165.3,165.3,0,0,0,52,107,266
+CompilationBenchmarksBigNightly,tastyQuery,60,1,5106 5191 5203 5081 5069 5064 5065 5065 5062 5061,673.1,673.1,673.2,0,0,0,6,260.2,916
+CompilationBenchmarksBigNightly,tictactoe,130,1,1084 1082 1084 1082 1081 1083 1079 1079 1081 1078,240.6,240.6,240.7,0,0,0,21,189.3,537
+CompilationBenchmarksSmallNightly,helloWorld,150,1,65.94 66.28 65.54 65.93 65.22 65.04 65.19 65.72 65.32 65.71,20.19,20.19,20.19,0,0,0,0,19.1,40
+CompilationBenchmarksSmallNightly,implicitInductive,150,1,892.8 892.1 891 892.2 891.8 892.3 892.7 890.8 891.8 891.5,63.76,63.77,63.77,0,0,0,11,51.5,147
+CompilationBenchmarksSmallNightly,matchTypeSort,150,1,597.3 598.2 598.5 597.7 598.3 597.4 599.8 597.3 598.1 596.3,115.3,115.3,115.3,0,0,0,16,77.8,288
+CompilationBenchmarksSmallNightly,patmatexhaust,150,1,298.1 304.7 297.9 299.4 294.2 293.1 294.9 296.3 295.2 296.4,68.6,68.61,68.63,0,0,0,9,86.8,254
